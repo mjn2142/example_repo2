@@ -2,7 +2,7 @@
 title: "Basic Plots"
 author: "Jeff Goldsmith"
 date: 2019-09-10
-output: html_document
+output: github_document
 ---
 
 ```{r setup, include = FALSE}
@@ -33,3 +33,4 @@ Next we show a scatterplot of `y` vs `x`.
 ```{r yx_scatter}
 ggplot(plot_df, aes(x = x, y = y)) + geom_point()
 ```
+
